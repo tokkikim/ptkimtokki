@@ -12,7 +12,7 @@ import sharp from 'sharp';
 export const dynamic = 'force-dynamic';
 
 // Google Gemini API를 통한 포즈 생성
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY || 'AIzaSyDxYqZJ-r8Wgg2NSOzNzvPuc7ubsAJwM7I';
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 
 // ONNX 세션 캐싱 (배경 제거용)
 let bgRemoveSession: ort.InferenceSession | null = null;
