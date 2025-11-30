@@ -1,0 +1,44 @@
+# Page snapshot
+
+```yaml
+- main [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - button "💖 Kitsch" [ref=e6]
+        - button "🤍 Simple" [ref=e7]
+        - button "💜 Neon" [ref=e8]
+      - heading "SIMPLE BOOTH" [level=1] [ref=e10]
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - generic [ref=e13]: FRAME
+          - button "White" [ref=e14]:
+            - img [ref=e16]
+          - button "Black" [ref=e18]
+          - button "Beige" [ref=e20]
+        - generic [ref=e22]:
+          - generic [ref=e23]: LAYOUT
+          - button "4컷" [ref=e24]:
+            - img [ref=e25]
+            - text: 4컷
+          - button "4컷" [ref=e27]:
+            - img [ref=e28]
+            - text: 4컷
+          - button "1컷" [ref=e30]:
+            - img [ref=e31]
+            - text: 1컷
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - generic [ref=e36]: 2025. 11. 22.
+          - generic [ref=e37]: SIMPLE BOOTH
+        - generic [ref=e38]:
+          - generic [ref=e41]: "1"
+          - generic [ref=e44]: "2"
+          - generic [ref=e47]: "3"
+          - generic [ref=e50]: "4"
+        - heading "MOMENTS" [level=2] [ref=e52]
+      - button "Start Shooting" [ref=e54]:
+        - img [ref=e55]
+        - text: Start Shooting
+```

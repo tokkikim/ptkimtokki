@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fff0f5;
+  --foreground: #2d0015;
+  --primary: #ff1493;
+  --secondary: #00ffff;
+  --accent: #ffff00;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  --font-sans: var(--font-jua);
+  --font-mono: var(--font-vt323);
+}
+
+body {
+  background-color: #ffcce6;
+  background-image: 
+    linear-gradient(45deg, #ff80bf 25%, transparent 25%, transparent 75%, #ff80bf 75%, #ff80bf),
+    linear-gradient(45deg, #ff80bf 25%, transparent 25%, transparent 75%, #ff80bf 75%, #ff80bf);
+  background-size: 60px 60px;
+  background-position: 0 0, 30px 30px;
+  color: var(--foreground);
+  font-family: var(--font-jua);
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+/* 키치한 스크롤바 */
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  background: #ffe6f2;
+}
+::-webkit-scrollbar-thumb {
+  background: #ff1493;
+  border: 3px solid #ffe6f2;
+  border-radius: 10px;
+}
+
+/* 유틸리티 클래스 */
+.text-shadow-retro {
+  text-shadow: 2px 2px 0px #000000;
+}
+.text-shadow-neon {
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff1493, 0 0 30px #ff1493, 0 0 40px #ff1493;
+}
+.box-shadow-retro {
+  box-shadow: 4px 4px 0px 0px #000000;
+}
+.box-shadow-soft {
+  box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.1);
+}
